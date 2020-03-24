@@ -1,0 +1,133 @@
+body
+{
+    background-color: ghostwhite;
+}
+#select
+{
+    margin-top: 30px;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;  
+}
+#select button
+{
+    background-color: green;
+    color: white;
+    border: none;
+    width: 100px;
+    height:40px;
+    font-size: 15px;
+
+}
+#score
+{
+    background-color:lightgrey;
+}
+
+#game
+{
+    height:auto;
+    margin:30px 20px;
+
+}
+#score1,#score2
+{
+    display: inline;
+    font-size: 38px;
+    font-weight: bold;
+    color:green;
+    
+}
+#score1
+{
+    padding-left:28%;
+}
+#score b
+{
+    font-size: 38px;
+    font-weight: bold;
+    color: green;
+}
+#player1,#player2
+{
+  height:auto;
+  width:10%;
+  text-align: center;
+  display:inline-block;
+  color:white;
+  background-color:#213FA1;
+  padding-top: 13px; 
+  padding-bottom: 13px;
+}
+#player1
+{
+    float: left;
+}
+#player2
+{
+    float: right;
+}
+#win1,#win2
+{
+    text-align: center;
+    display: inline-block;
+    padding: 13px 10px; 
+    height:18px;
+    width:8%;
+    
+}
+#win1
+{
+    float: left;
+}
+#win2
+{
+    float: right;
+}
+#box
+{
+    background-color: gray;
+    display:grid;
+    padding-top:30px;
+    padding-bottom: 30px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+#board
+{
+    background-color:black;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    font-size:120px;
+    
+}
+.win
+{
+    background-color: brown;
+}
+.square
+{
+    text-align: center;
+    background-color:ghostwhite;
+    height:140px;
+}
+#right
+{
+    text-align: center;
+}
+input
+{
+    height:25px;
+    width:80%;
+}
+#price
+{
+    color: red;
+    font-weight: bolder;
+    font-size: 30px;
+}
